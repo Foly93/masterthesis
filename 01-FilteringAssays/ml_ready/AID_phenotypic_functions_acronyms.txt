@@ -1,0 +1,28 @@
+Adipgen	Adipogenesis/Obesity
+Ang-gen	Angiogenesis
+C-Grwth	Cell Growth/Viability
+C-Death	Apoptosis/Cell Death
+Im-Resp	Immune Response
+Inflamm	Inflammation
+Snscnce	Senescence
+Mei/Mit	Meiosis/Mitosis
+C-Stres	Xenobiotics/Toxins/Cell Stress
+Signall	Signalling/Secretion/Hormones
+CNS/NDD	CNS/Epilepsy/Depression/NDD
+C-Entry	Invasion/Cell Entry
+Mitotox	Mitotoxicity
+A-Cancr	Anti-Cancer
+Orgnsm	Organism
+Tissue	Tissue/Cell Line
+Orgnll	Cell-Organell
+Genome	Genome Integrity/DNA-Repair
+Prteom	Ubiquitinylization/Protein Regulation/Proteome influencing
+
+HS	Homo Sapiens
+PF3D7	Plasmodium Falciparium 3D7
+MM	Mus Musculus
+RN	Rattus Norwegicus
+MV	Marburg Virus/VSV-MARV
+g4so	gene 4 small orf
+MMP	Mitochondrial Membrane Potential
+GG	Gallus Gallus (Chicken)
