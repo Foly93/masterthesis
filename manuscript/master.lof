@@ -1,0 +1,47 @@
+\acswitchoff 
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Visualization of a \ac {cp} Assay}}{11}{figure.caption.3}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Demonstration of a Branching Structure with SMILES}}{16}{figure.caption.4}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces SMILES string of a Cyclic Structure}}{16}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SMILES String that Resembles Multiple Cycles within the Same Molecule}}{17}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Specifications for Aromatic Nitrogen within the \ac {smiles} algorithm}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of Double Bond Configuration in \ac {smiles} Notation}}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Example of Enantiomere \ac {smiles} Strings}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Canonical Labelling with 2-(Acetyloxy)Benzoic Acid}}{20}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fingerprint Iterations with Substructures for One Atom}}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Visualization of \ac {ecfp} Generation}}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Concept of 5-Channel Imaging}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces CellProfiler Workflow}}{25}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces SMOTE Applied to a 2D Data Set}}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Visual Explanation of Decision Trees}}{29}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Visualization of the Splitting Condition}}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Visualization of \ac {cv}}}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Visualization of Nested \ac {cv}}}{33}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Structure of a Confusion Matrix}}{34}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Examples of ROC-Curves}}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Examples of \ac {go} Term Hierarchies}}{38}{figure.caption.26}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Performance Comparison of \ac {cp} and \ac {ecfp} Predictions}}{47}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Difference in AUC Between the \ac {cp}, \ac {ecfp} and \acl {sf}}}{48}{figure.caption.30}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Difference in \acl {ba} Between the \ac {cp}, \ac {ecfp} and \acl {sf}}}{50}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Difference in \acl {mcc} Between the \ac {cp}, \ac {ecfp} and \acl {sf}}}{51}{figure.caption.32}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Difference in \acl {tpr} Between the \ac {cp}, \ac {ecfp} and \ac {sf}}}{52}{figure.caption.33}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Difference in \ac {tnr} Between the \ac {cp}, \ac {ecfp} and \ac {sf}}}{54}{figure.caption.34}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \ac {auc} Scores from Modelling with All Features}}{55}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \ac {tpr} Scores from Modelling with All Features}}{56}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Assay-Group Standard Deviations of Low and High Performing Assays}}{58}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Phenotypic Terms That Can be Associated with Individual \acl {p} Assays}}{61}{figure.caption.41}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Annotations Enrichment in \acl {hpa} and \acl {lpa}}}{62}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Relative Abundances of \ac {go} Terms in Each Assay Group}}{64}{figure.caption.44}%
+\addvspace {10\p@ }
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

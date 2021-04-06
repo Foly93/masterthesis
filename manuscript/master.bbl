@@ -1,0 +1,480 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{59}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Singh \latin{et~al.}(2018)Singh, Khanna, and Pant]{Singh2018}
+Singh,~S.; Khanna,~V.~K.; \emph{In Vitro Toxicology}; Elsevier,
+  2018; pp 1--19\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Carpenter \latin{et~al.}(2006)Carpenter, Jones, Lamprecht, Clarke,
+  Kang, Friman, Guertin, Chang, Lindquist, Moffat, Golland, and
+  Sabatini]{Carpenter2006}
+Carpenter,~A.~E.; Jones,~T.~R. CellProfiler: image analysis software for identifying and quantifying cell phenotypes \emph{Genome Biology} \textbf{2006}, \emph{7},
+  R100\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bray \latin{et~al.}(2017)Bray, Gustafsdottir, Rohban, Singh, Ljosa,
+  Sokolnicki, Bittker, Bodycombe, Dan{\v{c}}{\'{\i}}k, Hasaka, Hon, Kemp, Li,
+  Walpita, Wawer, Golub, Schreiber, Clemons, Shamji, and Carpenter]{Bray2017}
+Bray,~M.-A. \latin{et~al.} A dataset of images and morphological profiles of 30 000 small-molecule treatments using the Cell Painting assay \emph{{GigaScience}} \textbf{2017}, \emph{6}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mervin \latin{et~al.}(2016)Mervin, Cao, Barrett, Firth, Murray,
+  McWilliams, Haddrick, Wigglesworth, Engkvist, and Bender]{Mervin2016}
+Mervin,~L.~H.; Cao,~Q. Understanding Cytotoxicity and Cytostaticity in a High-Throughput Screening Collection  \emph{{ACS} Chemical Biology} \textbf{2016}, \emph{11}, 3007--3023\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Katara(2013)]{Katara2013}
+Katara,~P. Role of bioinformatics and pharmacogenomics in drug discovery and development process \emph{Network Modeling Analysis in Health Informatics and
+  Bioinformatics} \textbf{2013}, \emph{2}, 225--230\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Myers and Baker(2001)Myers, and Baker]{Myers2001}
+Myers,~S.; Baker,~A. Drug discovery-an operating model for a new era \emph{Nature Biotechnology} \textbf{2001}, \emph{19},
+  727--730\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nelson \latin{et~al.}(2008)Nelson, Bacanu, Mosteller, Li, Bowman,
+  Roses, Lai, and Ehm]{Nelson2008}
+Nelson,~M.~R.; Bacanu,~S.-A.; Genome-wide approaches to identify pharmacogenetic contributions to adverse drug reactions \emph{The Pharmacogenomics Journal}
+  \textbf{2008}, \emph{9}, 23--33\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Simm \latin{et~al.}(2017)Simm, Klambauer, Arany, Steijaert, Wegner,
+  Gustin, Chupakhin, Chong, Vialard, Buijnsters, Velter, Vapirev, Singh,
+  Carpenter, Wuyts, Hochreiter, Moreau, and Ceulemans]{Simm2017}
+Simm,~J. \latin{et~al.} Repurposed high-throughput images enable biological activity prediction for drug discovery \textbf{2017}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bray \latin{et~al.}(2016)Bray, Singh, Han, Davis, Borgeson, Hartland,
+  Kost-Alimova, Gustafsdottir, Gibson, and Carpenter]{Bray2016}
+Bray,~M.-A.; Singh,~S. \latin{et al.} Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes \emph{Nature Protocols} \textbf{2016}, \emph{11}, 1757--1774\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rohban \latin{et~al.}(2017)Rohban, Singh, Wu, Berthet, Bray, Shrestha,
+  Varelas, Boehm, and Carpenter]{Rohban2017}
+Rohban,~M.~H.; Singh,~S. \latin{et al.} Systematic morphological profiling of human gene and allele function via Cell Painting \emph{{eLife}} \textbf{2017},
+  \emph{6}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gustafsdottir \latin{et~al.}(2013)Gustafsdottir, Ljosa, Sokolnicki,
+  Wilson, Walpita, Kemp, Seiler, Carrel, Golub, Schreiber, Clemons, Carpenter,
+  and Shamji]{Gustafsdottir2013}
+Gustafsdottir,~S.~M.; Ljosa,~V. \latin{et al.} Multiplex Cytological Profiling Assay to Measure Diverse Cellular States \emph{{PLoS} {ONE}}
+  \textbf{2013}, \emph{8}, e80999\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Nassiri and McCall(2018)Nassiri, and McCall]{Nassiri2018}
+Nassiri,~I.; McCall,~M.~N. Systematic exploration of cell morphological phenotypes associated with a transcriptomic query \emph{Nucleic Acids Research} \textbf{2018},
+  \emph{46}, e116--e116\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wawer \latin{et~al.}(2014)Wawer, Jaramillo, Dan{\v{c}}{\'{\i}}k, Fass,
+  Haggarty, Shamji, Wagner, Schreiber, and Clemons]{Wawer2014a}
+Wawer,~M.~J.; Jaramillo,~D.~E. \latin{et al.} Automated Structure-Activity Relationship Mining \emph{Journal of Biomolecular Screening} \textbf{2014},
+  \emph{19}, 738--748\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wiemann(2016)]{Wiemann2016}
+Wiemann,~S.; Pennacchio C. The ORFeome Collaboration: a genome-scale human ORF-clone resource \emph{Nature Methods} \textbf{2016}, \emph{13},
+  191--192\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yang \latin{et~al.}(2011)Yang, Boehm, Yang, Salehi-Ashtiani, Hao,
+  Shen, Lubonja, Thomas, Alkan, Bhimdi, Green, Johannessen, Silver, Nguyen,
+  Murray, Hieronymus, Balcha, Fan, Lin, Ghamsari, Vidal, Hahn, Hill, and
+  Root]{Yang2011}
+Yang,~X.; Boehm,~J.S. \latin{et~al.} A public genome-scale lentiviral expression library of human {ORFs} \emph{Nature Methods} \textbf{2011}, \emph{8},
+  659--661\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lapins and Spjuth(2019)Lapins, and Spjuth]{Lapins2019}
+Lapins,~M.; Spjuth,~O. Evaluation of Gene Expression and Phenotypic Profiling Data as Quantitative Descriptors for Predicting Drug Targets and Mechanisms of Action \textbf{2019}, \relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Subramanian \latin{et~al.}(2017)Subramanian, Narayan, Corsello, Peck,
+  Natoli, Lu, Gould, Davis, Tubelli, Asiedu, Lahr, Hirschman, Liu, Donahue,
+  Julian, Khan, Wadden, Smith, Lam, Liberzon, Toder, Bagul, Orzechowski,
+  Enache, Piccioni, Johnson, Lyons, Berger, Shamji, Brooks, Vrcic, Flynn,
+  Rosains, Takeda, Hu, Davison, Lamb, Ardlie, Hogstrom, Greenside, Gray,
+  Clemons, Silver, Wu, Zhao, Read-Button, Wu, Haggarty, Ronco, Boehm,
+  Schreiber, Doench, Bittker, Root, Wong, and Golub]{Subramanian2017}
+Subramanian,~A.; Narayan,~R. \latin{et~al.} A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles \emph{Cell} \textbf{2017}, \emph{171},
+  1437--1452.e17\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Simm \latin{et~al.}(2018)Simm, Klambauer, Arany, Steijaert, Wegner,
+  Gustin, Chupakhin, Chong, Vialard, Buijnsters, Velter, Vapirev, Singh,
+  Carpenter, Wuyts, Hochreiter, Moreau, and Ceulemans]{Simm2018}
+Simm,~J.; Klambauer,~G. \latin{et~al.} Repurposing High-Throughput Image Assays Enables Biological Activity Prediction for Drug Discovery \emph{Cell Chemical Biology} \textbf{2018}, \emph{25},
+  611--618.e3\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chawla \latin{et~al.}(2002)Chawla, Bowyer, Hall, and
+  Kegelmeyer]{Chawla2002}
+Chawla,~N.~V.; Bowyer,~K.~W. \latin{et al.} SMOTE: Synthetic Minority Over-sampling Technique \emph{Journal of
+  Artificial Intelligence Research} \textbf{2002}, \emph{16}, 321--357\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kim \latin{et~al.}(2020)Kim, Chen, Cheng, Gindulyte, He, He, Li,
+  Shoemaker, Thiessen, Yu, Zaslavsky, Zhang, and Bolton]{Kim2020}
+Kim,~S.; Chen,~J. \latin{et al.} {PubChem} in 2021: new data content and improved web interfaces \emph{Nucleic Acids Research} \textbf{2020}, \emph{49},
+  D1388--D1395\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pedregosa \latin{et~al.}(2012)Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, VanderPlas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay]{Pedregosa2012}
+Pedregosa,~F.; Varoquaux,~G. \latin{et~al.} Scikit-learn: Machine Learning in Python \emph{CoRR} \textbf{2012},
+  \emph{abs/1201.0490}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Weininger(1988)]{Weininger1988}
+Weininger,~D. SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules \emph{Journal of Chemical Information and Modeling}
+  \textbf{1988}, \emph{28}, 31--36\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[201(2014)]{2014a}
+\emph{Pure and Applied Chemistry}; De Gruyter, 2014\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Inc.(2011)]{smilesmanual}
+Inc.,~D. C. I.~S. Daylight Theory Manual.
+  https://www.daylight.com/dayhtml/doc/theory/index.pdf, \textbf{2011}; \emph{last time
+  opened: 24.02.2021}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Weininger \latin{et~al.}(1989)Weininger, Weininger, and
+  Weininger]{Weininger1989}
+Weininger,~D. \latin{et. al} SMILES. 2. Algorithm for generation of unique {SMILES} notation \emph{Journal of Chemical Information and Modeling} \textbf{1989}, \emph{29}, 97--101\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Rogers and Hahn(2010)Rogers, and Hahn]{Rogers2010}
+Rogers,~D.; Hahn,~M. Extended-Connectivity Fingerprints \emph{Journal of Chemical Information and Modeling} \textbf{2010}, \emph{50}, 742--754\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Morgan(1965)]{Morgan1965}
+Morgan,~H.~L. The Generation of a Unique Machine Description for Chemical Structures-A Technique Developed at Chemical Abstracts Service \emph{Journal of Chemical Documentation} \textbf{1965}, \emph{5},
+  107--113\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wawer \latin{et~al.}(2014)Wawer, Li, Gustafsdottir, Ljosa, Bodycombe,
+  Marton, Sokolnicki, Bray, Kemp, Winchester, Taylor, Grant, Hon, Duvall,
+  Wilson, Bittker, ik, Narayan, Subramanian, Winckler, Golub, Carpenter,
+  Shamji, Schreiber, and Clemons]{Wawer2014}
+Wawer,~M.~J. \latin{et~al.} Toward performance-diverse small-molecule libraries for cell-based phenotypic screening using multiplexed high-dimensional profiling \emph{Proceedings of the National Academy of
+  Sciences} \textbf{2014}, \emph{111}, 10911--10916\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kamentsky \latin{et~al.}(2011)Kamentsky, Jones, Fraser, Bray, Logan,
+  Madden, Ljosa, Rueden, Eliceiri, and Carpenter]{Kamentsky2011}
+Kamentsky,~L.; Jones,~T.~R. \latin{et al.} Improved structure, function and compatibility for {CellProfiler}: modular high-throughput image analysis software \emph{Bioinformatics} \textbf{2011}, \emph{27}, 1179--1180\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Moffat \latin{et~al.}(2006)Moffat, Grueneberg, Yang, Kim, Kloepfer,
+  Hinkle, Piqani, Eisenhaure, Luo, Grenier, Carpenter, Foo, Stewart, Stockwell,
+  Hacohen, Hahn, Lander, Sabatini, and Root]{Moffat2006}
+Moffat,~J. \latin{et~al.} A Lentiviral {RNAi} Library for Human and Mouse Genes Applied to an Arrayed Viral High-Content Screen \emph{Cell} \textbf{2006}, \emph{124},
+  1283--1298\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Institute(2020)]{cellprofiler2021}
+Institute,~B. CellProfiler example images and pipelines.
+  https://cellprofiler.org/examples, \textbf{2020};
+  \url{https://cellprofiler.org/examples}, \emph{Last accessed: 26.02.2021}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McQuin \latin{et~al.}(2018)McQuin, Goodman, Chernyshev, Kamentsky,
+  Cimini, Karhohs, Doan, Ding, Rafelski, Thirstrup, Wiegraebe, Singh, Becker,
+  Caicedo, and Carpenter]{McQuin2018}
+McQuin,~C.; Goodman,~A. \latin{et al.} CellProfiler 3.0: Next-generation image processing for biology  \emph{{PLOS} Biology} \textbf{2018}, \emph{16}, e2005970\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kim \latin{et~al.}(2015)Kim, Thiessen, Bolton, Chen, Fu, Gindulyte,
+  Han, He, He, Shoemaker, Wang, Yu, Zhang, and Bryant]{Kim2015}
+Kim,~S.; Thiessen,~P.~A. \latin{et al.} PubChem Substance and Compound database \emph{Nucleic Acids Research} \textbf{2015}, \emph{44},
+  D1202--D1213\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \latin{et~al.}(2009)Wang, Bolton, Dracheva, Karapetyan,
+  Shoemaker, Suzek, Wang, Xiao, Zhang, and Bryant]{Wang2009}
+Wang,~Y.; Bolton,~E. \latin{et al.} An overview of the PubChem BioAssay resource \emph{Nucleic
+  Acids Research} \textbf{2009}, \emph{38}, D255--D266\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \latin{et~al.}(2011)Wang, Xiao, Suzek, Zhang, Wang, Zhou, Han,
+  Karapetyan, Dracheva, Shoemaker, Bolton, Gindulyte, and Bryant]{Wang2011}
+Wang,~Y.; Xiao,~J. \latin{et al.} PubChems BioAssay Database \emph{Nucleic Acids Research} \textbf{2011}, \emph{40},
+  D400--D412\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kolokoltsov \latin{et~al.}(2007)Kolokoltsov, Deniger, Fleming,
+  Roberts, Karpilow, and Davey]{Kolokoltsov2007}
+Kolokoltsov,~A.~A.; Deniger,~D. \latin{et al.} Small Interfering {RNA} Profiling Reveals Key Role of Clathrin-Mediated Endocytosis and Early Endosome Formation for Infection by Respiratory Syncytial Virus \emph{Journal of Virology} \textbf{2007},
+  \emph{81}, 7786--7800\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hofmann-Winkler \latin{et~al.}(2012)Hofmann-Winkler, Kaup, and
+  Pöhlmann]{HofmannWinkler2012}
+Hofmann-Winkler,~H.; Kaup,~F. \latin{et al.} Host Cell Factors in Filovirus Entry: Novel Players, New Insights \emph{Viruses} \textbf{2012},
+  \emph{4}, 3336--3362\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kolokoltsov \latin{et~al.}(2009)Kolokoltsov, Saeed, Freiberg,
+  Holbrook, and Davey]{Kolokoltsov2009}
+Kolokoltsov,~A.~A.; Saeed,~M.~F. \latin{et al.} Identification of novel cellular targets for therapeutic intervention against Ebola virus infection by {siRNA} screening \emph{Drug Development Research} \textbf{2009}, \emph{70},
+  255--265\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[National Center~for Biotechnology Information~(2021)(2021)]{AID720532}
+National Center~for Biotechnology Information~(2021),~A. PubChem Bioassay
+  Record for AID 720532. Source: National Center for Advancing Translational
+  Sciences (NCATS), 2021;
+  \url{https://pubchem.ncbi.nlm.nih.gov/bioassay/720532}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Forsyth(2019)]{Forsyth2019}
+Forsyth,~D. \emph{Applied Machine Learning}; Springer-Verlag GmbH, 2019\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Raschka(2018)]{Raschka2018}
+Raschka,~S. Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning \emph{CoRR} \textbf{2018}, \emph{abs/1811.12808}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kohavi(1995)]{Kohavi1995}
+Kohavi,~R. A Study of Cross-Validation and Bootstrap for Accuracy Estimation
+  and Model Selection. Proceedings of the 14th International Joint Conference
+  on Artificial Intelligence - Volume 2. San Francisco, CA, USA, 1995; p
+  1137–1143\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fawcett(2006)]{Fawcett2006}
+Fawcett,~T. An introduction to {ROC} analysis \emph{Pattern Recognition Letters} \textbf{2006}, \emph{27},
+  861--874\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kelleher(2015)]{Kelleher2015}
+Kelleher,~J. \emph{Fundamentals of machine learning for predictive data
+  analytics : algorithms, worked examples, and case studies}; The MIT Press:
+  Cambridge, Massachusetts, 2015\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Boughorbel \latin{et~al.}(2017)Boughorbel, Jarray, and
+  El-Anbari]{Boughorbel2017}
+Boughorbel,~S.; Jarray,~F.; El-Anbari,~M. Optimal classifier for imbalanced data using Matthews Correlation Coefficient metric \emph{{PLOS} {ONE}} \textbf{2017},
+  \emph{12}, e0177678\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jolliffe(2002)]{Jolliffe2002}
+Jolliffe,~I.~T. \emph{Principal Component Analysis}; Springer-Verlag GmbH,
+  2002\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cha~Zhang(2012)]{Zhang2012}
+Cha~Zhang,~Y.~M., Ed. \emph{Ensemble Machine Learning}; Springer-Verlag GmbH,
+  2012\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peng \latin{et~al.}(2005)Peng, Long, and Ding]{Peng2005}
+Peng,~H.; Long,~F.; Ding,~C. Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy \emph{{IEEE} Transactions on Pattern Analysis and
+  Machine Intelligence} \textbf{2005}, \emph{27}, 1226--1238\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ashburner \latin{et~al.}(2000)Ashburner, Ball, Blake, Botstein,
+  Butler, Cherry, Davis, Dolinski, Dwight, Eppig, Harris, Hill, Issel-Tarver,
+  Kasarskis, Lewis, Matese, Richardson, Ringwald, Rubin, and
+  Sherlock]{Ashburner2000}
+Ashburner,~M. \latin{et~al.} Gene Ontology: tool for the unification of biology \emph{Nature Genetics} \textbf{2000}, \emph{25},
+  25--29\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[and Seth~Carbon \latin{et~al.}(2020)and Seth~Carbon, Douglass, Good,
+  Unni, Harris, Mungall, Basu, Chisholm, Dodson, Hartline, Fey, Thomas, Albou,
+  Ebert, Kesling, Mi, Muruganujan, Huang, Mushayahama, LaBonte, Siegele,
+  Antonazzo, Attrill, Brown, Garapati, Marygold, Trovisco, dos Santos, Falls,
+  Tabone, Zhou, Goodman, Strelets, Thurmond, Garmiri, Ishtiaq,
+  Rodr{\'{\i}}guez-L{\'{o}}pez, Acencio, Kuiper, L{\ae}greid, Logie, Lovering,
+  Kramarz, Saverimuttu, Pinheiro, Gunn, Su, Thurlow, Chibucos, Giglio,
+  Nadendla, Munro, Jackson, Duesbury, Del-Toro, Meldal, Paneerselvam, Perfetto,
+  Porras, Orchard, Shrivastava, Chang, Finn, Mitchell, Rawlings, Richardson,
+  Sangrador-Vegas, Blake, Christie, Dolan, Drabkin, Hill, Ni, Sitnikov, Harris,
+  Oliver, Rutherford, Wood, Hayles, Bähler, Bolton, Pons, Dwinell, Hayman,
+  Kaldunski, Kwitek, Laulederkind, Plasterer, Tutaj, Vedi, Wang, D'Eustachio,
+  Matthews, Balhoff, Aleksander, Alexander, Cherry, Engel, Gondwe, Karra,
+  Miyasato, Nash, Simison, Skrzypek, Weng, Wong, Feuermann, Gaudet, Morgat,
+  Bakker, Berardini, Reiser, Subramaniam, Huala, Arighi, Auchincloss, Axelsen,
+  Argoud-Puy, Bateman, Blatter, Boutet, Bowler, Breuza, Bridge, Britto,
+  Bye-A-Jee, Casas, Coudert, Denny, Estreicher, Famiglietti, Georghiou, Gos,
+  Gruaz-Gumowski, Hatton-Ellis, Hulo, Ignatchenko, Jungo, Laiho, Mercier,
+  Lieberherr, Lock, Lussi, MacDougall, Magrane, Martin, Masson, Natale,
+  Hyka-Nouspikel, Orchard, Pedruzzi, Pourcel, Poux, Pundir, Rivoire, Speretta,
+  Sundaram, Tyagi, Warner, Zaru, Wu, Diehl, Chan, Grove, Lee, Muller, Raciti,
+  Auken, Sternberg, Berriman, Paulini, Howe, Gao, Wright, Stein, Howe, Toro,
+  Westerfield, Jaiswal, Cooper, and Elser]{Carbon2020}
+Carbon,~S.; Douglass,~E. \latin{et~al.} The Gene Ontology resource: enriching a GOld mine \emph{Nucleic Acids Research} \textbf{2020},
+  \emph{49}, D325--D334\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Landrum(2019)]{Landrum2019}
+Landrum,~G. \emph{RDKit Documentation Release 2019.09.1}; Creative Commons: o
+  Creative Commons, 543 Howard Street, 5thFloor, San Francisco, California,
+  94105, USA, 2019\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[of~Medicine()]{Pubchem2021}
+of~Medicine,~N.~L. PubChem. \url{https://pubchem.ncbi.nlm.nih.gov/}, Last
+  Access: 04.03.2021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pub()]{PubchemDB2021}
+PubChem Database. \url{ftp.ncbi.nlm.nih.gov/pubchem/}, Last Access:
+  05.03.2021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bergstra and Bengio(2012)Bergstra, and Bengio]{Bergstra2012}
+Bergstra,~J.; Bengio,~Y. Random Search for Hyper-Parameter Optimization \emph{J. Mach. Learn. Res.} \textbf{2012}, \emph{13},
+  281–305\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Scikit-Learn()]{scikitfeature2021}
+Scikit-Learn, Feature importances with forests of trees.
+  \url{https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html},
+  Last Access: 04.03.2021\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

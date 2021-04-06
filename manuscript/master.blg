@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: master.aux
+The style file: achemso.bst
+A level-1 auxiliary file: chapters/01-Summary.aux
+A level-1 auxiliary file: chapters/02-Introduction.aux
+A level-1 auxiliary file: chapters/03-ScientificAim.aux
+A level-1 auxiliary file: chapters/07-Background.aux
+A level-1 auxiliary file: chapters/07-Methods.aux
+A level-1 auxiliary file: chapters/04-Results.aux
+A level-1 auxiliary file: chapters/06-Outlook.aux
+Illegal, another \bibstyle command---line 191 of file master.aux
+ : \bibstyle
+ :          {achemso}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-master.bib
+Database file #2: master.bib
+Too many commas in name 1 of "Wiemann, S., Pennacchio, C. et al." for entry Wiemann2016
+while executing---line 1703 of file achemso.bst
+achemso 2021-01-20 v3.13c
+Too many commas in name 1 of "Wiemann, S., Pennacchio, C. et al." for entry Wiemann2016
+while executing---line 1709 of file achemso.bst
+Too many commas in name 1 of "Wiemann, S., Pennacchio, C. et al." for entry Wiemann2016
+while executing---line 1709 of file achemso.bst
+You've used 59 entries,
+            2538 wiz_defined-function locations,
+            1194 strings with 27493 characters,
+and the built_in function-call counts, 25564 in all, are:
+= -- 1536
+> -- 2470
+< -- 29
++ -- 900
+- -- 841
+* -- 2945
+:= -- 3534
+add.period$ -- 67
+call.type$ -- 59
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 61
+duplicate$ -- 1110
+empty$ -- 1303
+format.name$ -- 904
+if$ -- 4647
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 376
+num.names$ -- 169
+pop$ -- 117
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 53
+stack$ -- 0
+substring$ -- 1035
+swap$ -- 1993
+text.length$ -- 118
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 392
+warning$ -- 0
+while$ -- 188
+width$ -- 0
+write$ -- 708
+(There were 4 error messages)

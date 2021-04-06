@@ -1,0 +1,319 @@
+% !TeX program = lualatex
+\documentclass[
+	ngerman,
+	ruledheaders=section,%Ebene bis zu der die Überschriften mit Linien abgetrennt werden, vgl. DEMO-TUDaPub
+	class=report,% Basisdokumentenklasse. Wählt die Korrespondierende KOMA-Script Klasse
+	thesis={type=master},% Dokumententyp Thesis, für Dissertationen siehe die Demo-Datei DEMO-TUDaPhd
+	accentcolor=1c,% Auswahl der Akzentfarbe
+	custommargins=geometry,% Ränder werden mithilfe von typearea automatisch berechnet
+	marginpar=false,% Kopfzeile und Fußzeile erstrecken sich nicht über die Randnotizspalte
+	%BCOR=5mm,%Bindekorrektur, falls notwendig
+	parskip=half-,%Absatzkennzeichnung durch Abstand vgl. KOMA-Script
+	fontsize=11pt,%Basisschriftgröße laut Corporate Design ist mit 9pt häufig zu klein
+%	logofile=example-image, %Falls die Logo Dateien nicht vorliegen
+]{tudapub}
+\geometry{a4paper,left=30mm,right=20mm,top=20mm,bottom=20mm,headsep=0.5cm}
+\usepackage[english,plain]{fancyref}
+%bessere optionen für das Cross referencing
+
+
+%==Modifikationen=zu======Dokumentenformatierung===============================================================================================================
+
+\makeatletter
+\newcommand{\nobreakchap}{%
+	\renewcommand\chapter{%
+		\par\global\@topnum\z@
+		\@afterindentfalse
+		\secdef\@chapter\@schapter}
+}
+\newcommand{\normalchap}{%
+	\renewcommand\chapter{%
+		\if@openright\cleardoublepage\else\clearpage\fi
+		\thispagestyle{\chapterpagestyle}%
+		\global\@topnum\z@
+		\@afterindentfalse
+		\secdef\@chapter\@schapter}
+}
+\makeatother
+%räumt durch den Befehl \nochapbreak die Möglichkeit nach einem \chapter keine neue Seite anzufangen
+\renewcommand{\baselinestretch}{1.25}
+%Modifikation des Zeilenabstands im Text
+\renewcommand*{\thepage}{}									%Seitennummerierung manuell starten
+%\numberwithin{equation}{section}
+%Nummerierung der Formeln inkl. Kap.
+%\numberwithin{figure}{section}
+%Nummerierung der Abbildungen inkl. Kap.
+%\numberwithin{table}{section}
+%Nummerierung der Tabellen inkl. Kap.
+%\usepackage{titlesec} % nicht kompatibel mit affidavit
+%Abstand über Überschrift
+%\titlespacing*{\chapter}{0pt}{-10pt}{0pt}
+%schiebt die uberschrift nach oben um 10 pt. sieht besser aus
+\usepackage{paralist}
+%Paragraphen Erweiterung
+
+
+%=========================Sprache=Symbole=und=Zeichen=========================================================================================================
+\usepackage{amsmath}
+% or simply amstext
+\usepackage{amsfonts}
+\usepackage[english]{babel}
+%Sprache und Buchstaben aus Deutschland
+\usepackage{courier}
+%implementiert die Schriftart Courier
+\usepackage[fleqn,tbtags]{mathtools}
+%math. Umgebung
+\usepackage{xurl}
+%Angabe von URL mit \url{URL}
+\usepackage[version-1-compatibility]{siunitx}
+%si-Einheiten; Syntax und Mcaros nach Version 1
+\DeclareSIUnit\molar{M}
+%makes molar accesible as a unit of concentration
+\sisetup{range-units = single}
+%si-Einheiten-package
+\sisetup{range-phrase = -}
+%si-Einheiten-package "to" ersetzen "-"
+\usepackage{upgreek}
+%Griech. Buchstaben
+\usepackage{chemformula}
+%chemische Formeln in besserer Schreibweise
+\usepackage{gensymb}
+\usepackage{scalerel}
+%=========================Verzeichnisse=======================================================================================================================
+\usepackage[nottoc]{tocbibind}
+%incorporates the bibliography into the toc 
+\usepackage{bibgerm}
+%Bibliographie in Deutscher codierung (umlaute) etc
+\usepackage{achemso}
+%Literaturverzeichnis im stil der American Chemical Society
+
+
+%==Modifikationen=zu======Verzeichnisse=======================================================================================================================
+\usepackage[stable]{footmisc}
+%Zitieren von Fußnoten im stable Style 
+%\bibliographystyle{plain}
+%literaturverzeichnis auf deutsch
+%\usepackage[printonlyused]{acronym} % http://ctan.org/pkg/acronym
+%Abkürzungsverzeichnis [printonlyuse]=nur benutzte werden abgedruckt
+\newcommand{\listofschemata}{\listof{schema}{List of Schemata}}
+%definiert einen neuen Befehl zum erstellen von Schemataverzeichnis
+\def\listschemaname{List of Schemata}
+%definiert den Latex-Namen für das Schemataverzeichnis
+\addto{\extrasngerman}{\renewcommand*{\listofschemata}{\listof{schema}{Verzeichnis der Schemata}}}
+%legt den deutschen Namen fest für das Schemataverzeichnis
+\addto{\extrasngerman}{\renewcommand*{\listschemaname}{Verzeichnis der Schemata}}
+%legt den deutschen Namen fest für das Schemataverzeichnis
+
+
+%=========================Abbildungen=etc=====================================================================================================================
+\usepackage{rotating}
+\usepackage{array}
+%makes the new definition of column specifiers possible
+\usepackage{etoolbox}
+%kann zum speichern von Variabeln benutzt werden
+\usepackage{filecontents}
+%erlaubt das benutzen von Dateiinhalten im Zuge von tikzpicture (zum beispiel excel graphen)
+\usepackage{float} 
+%erlaubt das erstellen und definieren von floatobjekten
+\usepackage{graphicx}
+%Grafiken
+\usepackage{pgfplots}
+%Zusatzpackage für tikz
+%https://texwelt.de/wissen/fragen/20061/farbverlauf-legende-tikz
+%useful link for colormaps and their usage
+\usepackage{pgfplotstable}
+%irgendwas wegen linearer regression
+\pgfplotsset{compat=1.13}
+%not sure what dis does....
+\usepackage{pdfpages}
+%Integrieren von pdf
+\usepackage{subcaption}
+%erlaubt das erstellen von subfigures
+\usepackage{svg}
+%Vektorgrafiken
+\usepackage{tabularx}
+%Tabellen
+\usepackage{tikz}
+%Alle möglichen Arten von Grafiken
+%\pgfrealjobname{osmoticcoefficient}
+%modifikation zum tikz package. noetig fuer Externalizing
+%refer to http://www.texample.net/media/pgf/builds/pgfmanualCVS2012-11-04.pdf Page 825ff
+%'lualatex.exe -synctex=1 -interaction=nonstopmode -jobname=<dir>/<name> %.tex' into "options">"configure Texstudio"
+\usepackage{wrapfig}
+%textumflossende Floatobjekte
+\usepackage{pdfpages}
+
+%==Modifikationen=zu======Abbildungen=etc=====================================================================================================================
+\usepackage[titles]{tocloft}
+\cftsetindents{figure}{0em}{4cm}
+\cftsetindents{table}{0em}{3.5em}
+%Abbildungen und Tabellen
+\usepackage{ragged2e}
+%Beschriftung links bei Float-Objekten
+\usepackage[justification=justified,format=plain,singlelinecheck=off,
+labelfont=bf,font=footnotesize]{caption}
+%Modifikation der Caption bei Float-Objekten
+\renewcommand{\cfttabpresnum}{Tab. }
+%Abkürzung Tabelle
+\renewcommand{\cftfigpresnum}{Fig. }
+%Abkürzung Abbildung
+\settowidth{\cfttabnumwidth}{Fig. 10\quad}
+%keine ahnung was das bringt
+\settowidth{\cftfignumwidth}{Fig. 10\quad}
+%keine ahnung was das bringt
+\usepackage{booktabs}
+%schönere Tabellen durch die befehle \toprule etc.
+\usepackage{multirow}
+%mehrere Tabellenzeilen in einer Spalte
+%\renewcaptionname{ngerman}{\figurename}{Abb.}
+%Abb.
+%\renewcaptionname{ngerman}{\tablename}{Tab.}
+%Tab. statt Tabelle
+%\renewcaptionname{ngerman}{\figurename}{Fig.}
+%\renewcaptionname{ngerman}{\tablename}{Tab.}
+\newfloat{schema}{tbp}{los}[chapter]
+%definition des float-objekts "Schema"
+\floatname{schema}{Schema}
+%Name des Floatobjekts "Schema"
+\def\schemaautorefname{Schema}
+%Referenzdefinition "Schema"
+\floatstyle{plain}
+%Festlegen des Floatstyles im Float-package
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\tbs\textbackslash
+
+\usepackage{pifont}% Zapf-Dingbats Symbole
+\newcommand*{\FeatureTrue}{\ding{52}}
+\newcommand*{\FeatureFalse}{\ding{56}}
+
+\pagenumbering{arabic}
+
+\usepackage[smaller]{acro}
+\DeclareAcronym{abc}{short=ABC,long=alpha bettick crisps}
+\DeclareAcronym{ml}{short=ML,long=machine learning}
+\DeclareAcronym{cp}{short=CP,long=cell-painting}
+\DeclareAcronym{mlsmr}{short=MLSMR,long=Molecular Libraries Small Molecule Repository}
+\DeclareAcronym{mlp}{short=MLP,long=Molecular Libraries Program}
+\DeclareAcronym{er}{short=ER,long=endoplasmatic reticulum}
+\DeclareAcronym{wga}{short=WGA,long=wheat germ agglutinin}
+\DeclareAcronym{scc}{short=SCC,long=single-concentration-compound,tag=noprint}
+\DeclareAcronym{dmso}{short=DMSO,long=dimethyl sulfoxide}
+\DeclareAcronym{smiles}{short=SMILES,long=simplified molecular input line entry specification}
+\DeclareAcronym{aid}{short=AID,long=assay identifier}
+\DeclareAcronym{cid}{short=CID,long=compound identifier}
+\DeclareAcronym{inchik}{short=InChI-key,long=international chemical identifier key}
+\DeclareAcronym{p}{short=PubChem,long=PubChem,tag=noprint}
+\DeclareAcronym{mbs}{short=MBS,long=\url{Metadata\_broad\_sample},tag=noprint}
+\DeclareAcronym{prid}{short=prid,long=preprocessed raw image data,tag=noprint}
+\DeclareAcronym{rid}{short=rid,long=raw image data,tag=noprint}
+\DeclareAcronym{cmrds}{short=cmrds,long=combined ML-ready data set,tag=noprint}
+\DeclareAcronym{ecfp}{short=ECFP,long=extended-connectivity fingerprint}
+\DeclareAcronym{eset}{short=ECFP-set,long=ECFP-set,tag=noprint}
+\DeclareAcronym{r}{short=r,long=radius,tag=noprint}
+\DeclareAcronym{rfc}{short=RFC,long=random forest classifier}
+\DeclareAcronym{cv}{short=CV,long=cross-validation}
+\DeclareAcronym{kfcv}{short=KFCV,long=$k$-fold cross validation}
+\DeclareAcronym{tpr}{short=TPR,long=true positive rate}
+\DeclareAcronym{tnr}{short=TNR,long=true negative rate}
+\DeclareAcronym{ba}{short=BA,long=balanced accuracy}
+\DeclareAcronym{mcc}{short=MCC,long=Matthews correlation coefficient}
+\DeclareAcronym{auc}{short=AUC-ROC,long=area under the ROC curve}
+\DeclareAcronym{roc}{short=ROC-curve,long=receiver operating characteristic curve}
+\DeclareAcronym{tp}{short=TP,long=true positive}
+\DeclareAcronym{tn}{short=TN,long=true negative}
+\DeclareAcronym{fp}{short=FP,long=false positive}
+\DeclareAcronym{fn}{short=FN,long=false negative}
+\DeclareAcronym{fpr}{short=FPR,long=false positive rate}
+\DeclareAcronym{pca}{short=PCA,long=principal component analysis}
+\DeclareAcronym{mrmr}{short=MRMR,long=minimal-redundancy-maximal-relevance criterion}
+\DeclareAcronym{gi}{short=GI, long=gini impurity}
+\DeclareAcronym{smote}{short=SMOTE,long=synthetic minority oversampling technique}
+\DeclareAcronym{hpa}{short=hpa,long=high performing assays}
+\DeclareAcronym{lpa}{short=lpa,long=low performing assays}
+\DeclareAcronym{vsv}{short=VSV,long=vesicular stomatitis virus}
+\DeclareAcronym{atxn}{short=ATXN2,long=Ataxin-2 gene}
+\DeclareAcronym{sca2}{short=SCA2,long=spinocerebellar ataxia type 2}
+\DeclareAcronym{moa}{short=MoA,long=mechanism of action,long-plural-form=mechanisms of action,short-plural-form=MoAs}
+\DeclareAcronym{gcr}{short=GCR,long=glucocorticoid receptor}
+\DeclareAcronym{hts}{short=HTS,long=high-throughput-screening}
+\DeclareAcronym{iupac}{short=IUPAC,long=International Union of Pure and Applied Chemistry}
+\DeclareAcronym{go}{short=GO,long=gene ontology}
+\DeclareAcronym{sf}{short=SF,long=selected features}
+\DeclareAcronym{af}{short=AF,long=all features}
+\DeclareAcronym{dna}{short=DNA,long=deoxyribonucleic acid}
+\DeclareAcronym{rna}{short=RNA,long=ribonucleic acid}
+
+\RedeclareSectionCommand[beforeskip=0pt,
+afterskip=2cm]{chapter}
+
+\begin{document}
+	\Metadata{
+		title=Prediction of Cytotoxicity Related PubChem Assays Using High-Content-Imaging Descriptors from Cell-Painting,
+		author=Luis Vollmers
+	}
+	
+	\title{Prediction of Cytotoxicity Related PubChem Assays Using High-Content-Imaging Descriptors derived from Cell-Painting}
+	\subtitle{A comparative study investigating the applicability of cell-painting data using machine learning methods and chemoinformatics tools}
+	\author[L. Vollmers]{Luis Vollmers}
+	\birthplace{Hannover}
+	\reviewer{Prof. Dr. Katja Schmitz\and Dr. Andreas Bender}
+	
+	%\department{University of Cambridge}
+	%\institute{Department of Chemistry}
+	%\group{Bender Group}
+
+	\addTitleBoxLogo*{\includegraphics[width=\linewidth]{figures/camlogo.jpg}}	
+	
+	\submissiondate{\today}
+	\examdate{\today}
+	
+	\maketitle
+	
+	\affidavit% oder \affidavit[digital] falls eine rein digitale Abgabe vorgesehen ist.
+	\tableofcontents
+	
+	\includepdf[pages=-]{daadtitlepage.pdf}
+	\include{chapters/01-Summary}
+	\include{chapters/02-Introduction}
+	\include{chapters/03-ScientificAim}
+	\include{chapters/07-Background}
+	\include{chapters/07-Methods}
+	\include{chapters/04-Results}
+	\include{chapters/06-Outlook}
+	
+
+	
+
+	\printacronyms[
+	name = {Abbreviations}
+	,sort = true
+	,display = used
+	,exclude=noprint]
+	
+	\selectlanguage{english}
+	%\bibliography{master}
+	%\bibliographystyle{achemso}
+	
+	\input{master.bbl}
+	
+	\chapter{Appendix}
+	\newpage
+	\vspace{-5cm}
+	\begin{table}[H]
+		\centering
+		\caption[Lists of \ac{go} Terms More Abundant in Each Assay Group.]{Lists of \ac{go} terms more abundant in each assay group.}
+		\label{tab:goterms}
+		\includegraphics[width=0.98\textwidth]{figures/goterms_abundance_list.pdf}
+	\end{table}
+\newpage
+%% abstande bei kapiteln besser machen zum oberen rand
+\listoffigures
+\listoftables
+
+\end{document}

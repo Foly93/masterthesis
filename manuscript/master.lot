@@ -1,0 +1,24 @@
+\acswitchoff 
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces List of Fluorescents Dyes}}{24}{table.caption.14}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Important Metadata Columns}}{26}{table.caption.16}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Overview over the Combined Machine Learning Ready Data Sets}}{42}{table.caption.27}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Hyperparameters covered by the \ac {rfc}}}{44}{table.caption.28}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Average Evaluation Metrics Sorted by \acl {hpa} and \acl {lpa}}}{55}{table.caption.35}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Assay-Normalized Standard deviation per Channel}}{59}{table.caption.39}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Phenotypic Terms That Can be Associated with Individual \acl {p} Assays}}{60}{table.caption.40}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Enrichment of phenotypic terms in \acl {hpa} and \acl {lpa}}}{62}{table.caption.43}%
+\addvspace {10\p@ }
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Lists of \ac {go} Terms More Abundant in Each Assay Group.}}{73}{table.caption.46}%
+\addvspace {10\p@ }
